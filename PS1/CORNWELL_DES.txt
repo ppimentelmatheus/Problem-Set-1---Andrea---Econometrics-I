@@ -1,0 +1,71 @@
+Contains data from cornwell.dta
+  obs:           630                          
+ vars:            59                          17 Aug 1999 13:52
+ size:       131,040 (86.7% of memory free)
+-------------------------------------------------------------------------------
+              storage  display     value
+variable name   type   format      label      variable label
+-------------------------------------------------------------------------------
+county          int    %9.0g                  county identifier
+year            byte   %9.0g                  81 to 87
+crmrte          float  %9.0g                  crimes committed per person
+prbarr          float  %9.0g                  'probability' of arrest
+prbconv         float  %9.0g                  'probability' of conviction
+prbpris         float  %9.0g                  'probability' of prison sentenc
+avgsen          float  %9.0g                  avg. sentence, days
+polpc           float  %9.0g                  police per capita
+density         float  %9.0g                  people per sq. mile
+taxpc           float  %9.0g                  tax revenue per capita
+west            byte   %9.0g                  =1 if in western N.C.
+central         byte   %9.0g                  =1 if in central N.C.
+urban           byte   %9.0g                  =1 if in SMSA
+pctmin80        float  %9.0g                  perc. minority, 1980
+wcon            float  %9.0g                  weekly wage, construction
+wtuc            float  %9.0g                  wkly wge, trns, util, commun
+wtrd            float  %9.0g                  wkly wge, whlesle, retail trade
+wfir            float  %9.0g                  wkly wge, fin, ins, real est
+wser            float  %9.0g                  wkly wge, service industry
+wmfg            float  %9.0g                  wkly wge, manufacturing
+wfed            float  %9.0g                  wkly wge, fed employees
+wsta            float  %9.0g                  wkly wge, state employees
+wloc            float  %9.0g                  wkly wge, local gov emps
+mix             float  %9.0g                  offense mix: face-to-face/other
+pctymle         float  %9.0g                  percent young male
+d82             byte   %9.0g                  =1 if year == 82
+d83             byte   %9.0g                  =1 if year == 83
+d84             byte   %9.0g                  =1 if year == 84
+d85             byte   %9.0g                  =1 if year == 85
+d86             byte   %9.0g                  =1 if year == 86
+d87             byte   %9.0g                  =1 if year == 87
+lcrmrte         float  %9.0g                  log(crmrte)
+lprbarr         float  %9.0g                  log(prbarr)
+lprbconv        float  %9.0g                  log(prbconv)
+lprbpris        float  %9.0g                  log(prbpris)
+lavgsen         float  %9.0g                  log(avgsen)
+lpolpc          float  %9.0g                  log(polpc)
+ldensity        float  %9.0g                  log(density)
+ltaxpc          float  %9.0g                  log(taxpc)
+lwcon           float  %9.0g                  log(wcon)
+lwtuc           float  %9.0g                  log(wtuc)
+lwtrd           float  %9.0g                  log(wtrd)
+lwfir           float  %9.0g                  log(wfir)
+lwser           float  %9.0g                  log(wser)
+lwmfg           float  %9.0g                  log(wmfg)
+lwfed           float  %9.0g                  log(wfed)
+lwsta           float  %9.0g                  log(wsta)
+lwloc           float  %9.0g                  log(wloc)
+lmix            float  %9.0g                  log(mix)
+lpctymle        float  %9.0g                  log(pctymle)
+lpctmin         float  %9.0g                  log(pctmin)
+clcrmrte        float  %9.0g                  lcrmrte - lcrmrte[_n-1]
+clprbarr        float  %9.0g                  lprbarr - lprbarr[_n-1]
+clprbcon        float  %9.0g                  lprbconv - lprbconv[_n-1]
+clprbpri        float  %9.0g                  lprbpri - lprbpri[t-1]
+clavgsen        float  %9.0g                  lavgsen - lavgsen[t-1]
+clpolpc         float  %9.0g                  lpolpc - lpolpc[t-1]
+cltaxpc         float  %9.0g                  ltaxpc - ltaxpc[t-1]
+clmix           float  %9.0g                  lmix - lmix[t-1]
+-------------------------------------------------------------------------------
+Sorted by:  county  year  
+
+  
